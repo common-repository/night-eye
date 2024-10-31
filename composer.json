@@ -1,0 +1,11 @@
+{
+    "name": "rz/night_eye",
+    "config": {
+        "vendor-dir": "src/vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "NightEye\\": "./night-eye"
+        }
+    }
+}

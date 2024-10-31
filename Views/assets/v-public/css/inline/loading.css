@@ -1,0 +1,51 @@
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]),
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) * {
+    background: #1f1f1f !important;
+    color: #b4bcca !important;
+}
+
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) a {
+    color: #a1b6de !important;
+}
+
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) header,
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) header *,
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) footer,
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) footer *,
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) section,
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) section *,
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) nav,
+:root:not([nighteyeplgn="passive"]):not([nighteyeplgn="active"]):not([nighteyeplgn="disabled"]) nav * {
+    background-color: #272727 !important;
+}
+
+:root[nighteyeplgn="passive"] * {
+    background: #1f1f1f !important;
+    color: #b4bcca !important;
+}
+
+:root[nighteyeplgn="passive"] a {
+    color: #a1b6de !important;
+}
+
+:root[nighteyeplgn="passive"] header,
+:root[nighteyeplgn="passive"] header *,
+:root[nighteyeplgn="passive"] footer,
+:root[nighteyeplgn="passive"] footer *,
+:root[nighteyeplgn="passive"] section,
+:root[nighteyeplgn="passive"] section *,
+:root[nighteyeplgn="passive"] nav,
+:root[nighteyeplgn="passive"] nav * {
+    background: #272727 !important;
+}
+
+/* it has to be here in this file */
+:root.nighteyeplgnInvert {
+    filter: invert(90%);
+}
+
+/* it has to be here in this file */
+:root[nighteyeplgn="active"] iframe:not([src]) {
+    /* filter: invert(88%) blur(5px); */
+    filter: brightness(50%);
+}

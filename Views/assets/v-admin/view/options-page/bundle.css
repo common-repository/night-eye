@@ -1,0 +1,143 @@
+input[type=text],
+textarea,
+select {
+    width: 150px !important;
+    flex-shrink: 0;
+}
+
+textarea {
+    height: 90px;
+}
+
+form {
+    width: 50% !important;
+}
+
+.notice {
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+.SectionRow {
+    display: flex;
+}
+
+.SectionRow>div:first-child {
+    margin-right: 20px;
+}
+
+.Box {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+}
+
+.Box.Pro {
+    background-color: #0093a0;
+    color: #fff;
+}
+
+.Box.Pro .dashicons {
+    color: #fff !important;
+}
+
+.Box.Pro .button-primary {
+    background-color: #ffcc00;
+    color: #0071a1;
+}
+
+.Box .Title {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccd0d4;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.Box .Row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.Box .Row.Buttons {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.Box .Row.Buttons a {
+    width: 300px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.Box .Row .Label {
+    flex: 0 0 160px;
+}
+
+.Box .Row .Explanation {
+    margin-left: 20px;
+}
+
+.Box .Row .SubLabel {
+    flex: 0 0 160px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.Box .Content {
+    padding: 20px;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+.Box .Content .LabelTitle {
+    margin-bottom: 20px;
+}
+
+.Box .Content .FeatureRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.Box .Content .dashicons {
+    color: #007cba;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.Box .Buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.Readonly {
+    pointer-events: none;
+    background-color: #ddd !important;
+}
+
+.ColorsSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ColorPair {
+    display: flex;
+    border: 1px solid #000;
+}
+
+.DefautlColor {
+    width: 26px;
+    height: 26px;
+    border-right: 1px solid #ccd0d4;
+}
+
+/*# sourceMappingURL=bundle.css.map*/

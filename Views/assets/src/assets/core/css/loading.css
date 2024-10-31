@@ -1,0 +1,40 @@
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]),
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) * {
+    background: #1f1f1f !important;
+    color: #b4bcca !important;
+}
+
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) a {
+    color: #a1b6de !important;
+}
+
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) header,
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) header *,
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) footer,
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) footer *,
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) section,
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) section *,
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) nav,
+html:not([nighteye="passive"]):not([nighteye="active"]):not([nighteye="disabled"]) nav * {
+    background-color: #272727 !important;
+}
+
+html[nighteye="passive"] * {
+    background: #1f1f1f !important;
+    color: #b4bcca !important;
+}
+
+html[nighteye="passive"] a {
+    color: #a1b6de !important;
+}
+
+html[nighteye="passive"] header,
+html[nighteye="passive"] header *,
+html[nighteye="passive"] footer,
+html[nighteye="passive"] footer *,
+html[nighteye="passive"] section,
+html[nighteye="passive"] section *,
+html[nighteye="passive"] nav,
+html[nighteye="passive"] nav * {
+    background: #272727 !important;
+}
